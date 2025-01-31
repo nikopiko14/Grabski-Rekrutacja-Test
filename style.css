@@ -1,0 +1,185 @@
+.container-fluid {
+    background-color: #106cfc;
+    font-size: 150%;
+}
+.nav-link {
+    color: #f4f4f4;
+}
+.nav-link:hover {
+    color: rgb(189, 189, 189);
+}
+.navbar-toggler-icon, .navbar-toggler {
+    margin: 0.6% 0;
+}
+#dlaczego-warto {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+body {
+    background-color: #f4f4f4;
+}
+.why1 > a {
+    width: 33%;
+}
+#hrwhy {
+    width: 5rem;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.why1 > a > strong {
+    font-size: 150%;
+    display: grid;
+}
+.why1 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    font-size: 130%;
+}
+
+/* Zmiana układu na kolumnowy na mniejszych ekranach */
+@media (max-width: 950px) {
+    .why1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .why1 > a {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .collapse, .card-body {
+        font-size: 75%;
+    }
+}
+.item {
+    color: lightslategray;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+.jeden:hover, .dwa:hover, .trzy:hover {
+    font-size: 110%;
+}
+.item > strong, .item > i {
+    color: black;
+    text-decoration: none;
+}
+#dlaczego-warto > h2 {
+    font-size: 200%;
+}
+.item > i {
+    font-size: 150%;
+}
+.hash {
+    min-height: 100vh;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background: url('tlo1.jpg') center/cover no-repeat;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    color: #f4f4f4;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+.hashzdj {
+    position: relative;
+    top: -100px;
+    background-color: #f4f4f4;
+    transition: 0.2s;
+}
+#kierunki {
+    background-color: #f4f4f4;
+    width: 100%;
+}
+.kierunkisekcje {
+    text-align: center;
+}
+.kierunkisekcje > hr {
+    width: 5rem;
+    border: 1px solid black;
+    margin: 0.75% auto;
+}
+.kierunkisekcje > b {
+    font-size: 130%;
+}
+.kierunkisekcje > p {
+    font-size: 110%;
+    color: rgb(143, 143, 143);
+}
+.haslo-promocyjne, .haslopromhref  {
+    text-align: center;
+    
+    font-size: 170%;
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+    transition: 0.2s;
+    font-family: "Funnel Display", serif;
+}
+.haslopromhref:hover {
+    color: #288ada;
+    font-size: 180%;
+}
+#kierunki > .kierunkisekcje > h2 {
+    transition: 0.2s;
+    font-size: 140%;
+}
+#kierunki > .kierunkisekcje > h2:hover {
+    color: #158bec;
+    font-size: 190%;
+}
+.btn, .btn-primary {
+    transition: 0.3s;
+    font-size: 60%;
+}
+.btn:hover, .btn-primary:hover {
+    background-color: rgb(7, 97, 175);
+    font-size: 80%;
+}
+.film {
+    width: 100%;
+    max-width: 40em;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Utrzymuje proporcje */
+    margin: auto;
+}
+footer {
+    font-family: 'Geologica';
+    background-color: #296ca3;
+}
+.list-unstyled > li {
+    transition: 0.2s;
+}
+.list-unstyled > li:hover {
+    color: rgb(185, 183, 183);
+}
+.mailsekretariat {
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+}
+.mailsekretariat:hover {
+    color: rgb(185, 183, 183);
+}
+.logozdj {
+    transition: 0.3s;
+}
+.logozdj:hover {
+    width: 450px;
+}
+#hrfilm {
+    width: 5rem;
+    border: 1px solid black;
+    margin: 0 auto;
+}
