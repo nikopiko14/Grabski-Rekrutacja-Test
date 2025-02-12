@@ -1,9 +1,11 @@
-html{
+
+html {
     background-image: url('drzewko-grabski.jpg');
-    background-size: 100vw;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
-
 .container-fluid {
     background-color: #106cfc;
     font-size: 100%;
@@ -211,6 +213,9 @@ section > h2{
 }
 .navbar-nav > li{
     margin: 0 10px;
+}
+.collapse {
+    color: black;
 }
 
 
